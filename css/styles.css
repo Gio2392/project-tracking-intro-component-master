@@ -82,7 +82,7 @@ ul, li{ padding: 0; margin: 0;}
     overflow: hidden;
     
 }
-@media (min-width: 768px) {
+@media (min-width: 650px) {
     .hero{
         align-items: center;
         justify-content: flex-start;
@@ -193,11 +193,24 @@ ul, li{ padding: 0; margin: 0;}
     right: -10%;
     top: 10rem;
 }
+@media (min-width: 420px) {
+    .hero_bg{
+        max-width: 100%;
+        z-index: 2 ;    
+        top: 50%;
+        right: -70%;
+        transform: translateY(-50%);
+    }  
+}
+
+
 @media (min-width: 768px) {
     .hero_bg{
         max-width: 60%;
         z-index: 2 ;    
         top: unset;
+        right: -10%;
+        transform: unset;
     }  
 }
 footer{
